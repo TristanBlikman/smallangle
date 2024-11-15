@@ -16,7 +16,7 @@ def cmd_group():
     )
 def sin(number):
     """This command gives you a list of sine values
-    between 0 and 2 pi
+    between 0 and 2 pi.
     """
     x = np.linspace(0, 2 * pi, number)
     df = pd.DataFrame({"x": x, "sin (x)": np.sin(x)})
